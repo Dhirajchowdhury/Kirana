@@ -42,3 +42,9 @@ coverage/
 # PWA
 sw.js
 workbox-*.js
+
+SETUP.md
+LANDING_PAGE_REDESIGN.md
+QUICK_START.md
+INTEGRATION_GUIDE.md
+start.bat
