@@ -492,6 +492,198 @@
 }
 
 /* ===================================
+   TEAM COLLABORATION BOX
+   =================================== */
+
+.bento-team {
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+}
+
+.team-avatars {
+  display: flex;
+  gap: -8px;
+  margin-top: auto;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border: 3px solid #e0f2fe;
+  margin-left: -8px;
+}
+
+.avatar:first-child {
+  margin-left: 0;
+}
+
+.avatar.plus {
+  background: linear-gradient(135deg, #8AA624, #6B8519);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* ===================================
+   CLOUD SYNC BOX
+   =================================== */
+
+.bento-cloud {
+  background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+}
+
+.sync-indicator {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.sync-circle {
+  width: 12px;
+  height: 12px;
+  background: #8AA624;
+  border-radius: 50%;
+  animation: syncPulse 1.5s ease-in-out infinite;
+}
+
+.sync-circle:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.sync-circle:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes syncPulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.5); opacity: 1; }
+}
+
+/* ===================================
+   SECURITY BOX
+   =================================== */
+
+.bento-security {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+}
+
+.security-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.security-badge {
+  padding: 8px 16px;
+  background: white;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* ===================================
+   PERFORMANCE BOX
+   =================================== */
+
+.bento-performance {
+  background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+}
+
+.speed-meter {
+  margin-top: auto;
+}
+
+.speed-bar {
+  height: 8px;
+  background: linear-gradient(90deg, #DC2626 0%, #FEA405 50%, #8AA624 100%);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  animation: speedLoad 2s ease-in-out infinite;
+}
+
+@keyframes speedLoad {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.speed-label {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #DC2626;
+}
+
+/* ===================================
+   CATEGORIES BOX
+   =================================== */
+
+.bento-categories {
+  background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+}
+
+.category-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.tag {
+  padding: 8px 12px;
+  background: white;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* ===================================
+   REPORTS BOX
+   =================================== */
+
+.bento-reports {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+}
+
+.report-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 1rem;
+}
+
+.report-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: white;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.report-status {
+  padding: 4px 12px;
+  background: #8AA624;
+  color: white;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* ===================================
    SOCIAL PROOF SECTION
    =================================== */
 

@@ -8,7 +8,13 @@ import {
   FaCheckCircle,
   FaClock,
   FaBox,
-  FaShoppingCart
+  FaShoppingCart,
+  FaUsers,
+  FaCloud,
+  FaLock,
+  FaRocket,
+  FaTags,
+  FaFileAlt
 } from 'react-icons/fa';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
@@ -192,12 +198,117 @@ const Landing = () => {
               </div>
             </div>
 
+            {/* Team Collaboration Box */}
+            <div className="bento-box bento-small bento-team">
+              <div className="bento-content">
+                <div className="bento-icon-badge">
+                  <FaUsers />
+                </div>
+                <h3>Team Ready</h3>
+                <p>Collaborate with your team in real-time</p>
+                <div className="team-avatars">
+                  <div className="avatar">👤</div>
+                  <div className="avatar">👤</div>
+                  <div className="avatar">👤</div>
+                  <div className="avatar plus">+5</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Cloud Sync Box */}
+            <div className="bento-box bento-small bento-cloud">
+              <div className="bento-content">
+                <div className="bento-icon-badge">
+                  <FaCloud />
+                </div>
+                <h3>Cloud Sync</h3>
+                <p>Auto-sync across all devices</p>
+                <div className="sync-indicator">
+                  <div className="sync-circle"></div>
+                  <div className="sync-circle"></div>
+                  <div className="sync-circle"></div>
+                </div>
+              </div>
+            </div>
+
+            {/* Security Box */}
+            <div className="bento-box bento-medium bento-security">
+              <div className="bento-content">
+                <div className="bento-icon-badge">
+                  <FaLock />
+                </div>
+                <h3>Bank-Level Security</h3>
+                <p>Your data is encrypted and secure</p>
+                <div className="security-badges">
+                  <div className="security-badge">🔒 SSL</div>
+                  <div className="security-badge">🛡️ Encrypted</div>
+                  <div className="security-badge">✅ GDPR</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Performance Box */}
+            <div className="bento-box bento-small bento-performance">
+              <div className="bento-content">
+                <div className="bento-icon-badge">
+                  <FaRocket />
+                </div>
+                <h3>Lightning Fast</h3>
+                <p>Optimized for speed</p>
+                <div className="speed-meter">
+                  <div className="speed-bar"></div>
+                  <div className="speed-label">99.9% Uptime</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Categories Box */}
+            <div className="bento-box bento-small bento-categories">
+              <div className="bento-content">
+                <div className="bento-icon-badge">
+                  <FaTags />
+                </div>
+                <h3>Smart Categories</h3>
+                <p>Organize with custom tags</p>
+                <div className="category-tags">
+                  <span className="tag">Groceries</span>
+                  <span className="tag">Beverages</span>
+                  <span className="tag">Snacks</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Reports Box */}
+            <div className="bento-box bento-wide bento-reports">
+              <div className="bento-content">
+                <div className="bento-icon-badge">
+                  <FaFileAlt />
+                </div>
+                <h3>Detailed Reports & Analytics</h3>
+                <p>Export reports in multiple formats</p>
+                <div className="report-preview">
+                  <div className="report-row">
+                    <span>📊 Sales Report</span>
+                    <span className="report-status">Ready</span>
+                  </div>
+                  <div className="report-row">
+                    <span>📈 Inventory Analysis</span>
+                    <span className="report-status">Ready</span>
+                  </div>
+                  <div className="report-row">
+                    <span>💰 Profit Margins</span>
+                    <span className="report-status">Ready</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
 
       {/* Social Proof Section */}
-      <section className="social-proof-section">
+      <section className="social-proof-section" id="features">
         <div className="social-proof-container">
           <p className="social-proof-text">Trusted by store owners across the country</p>
           <div className="trust-badges">
@@ -210,7 +321,7 @@ const Landing = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="how-it-works-section">
+      <section className="how-it-works-section" id="how-it-works">
         <div className="how-container">
           <h2 className="section-title">Get Started in Minutes</h2>
           
