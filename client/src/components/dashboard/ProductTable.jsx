@@ -43,7 +43,7 @@ const ProductTable = () => {
 
       {products.length === 0 ? (
         <div className="empty-state">
-          <p>No products found. Start by adding your first product!</p>
+          <p>No products found. Add new Products.. </p>
         </div>
       ) : (
         <div className="table-wrapper">
