@@ -12,6 +12,7 @@ const Categories = () => {
         </div>
         <div className="card">
           <p>Category management interface coming soon...</p>
+          <p>More to add </p>
         </div>
       </main>
     </div>
