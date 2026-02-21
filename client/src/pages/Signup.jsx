@@ -57,7 +57,7 @@ const Signup = () => {
         <div className="auth-container">
           <div className="auth-header">
             <h2>Verify Your Email</h2>
-            <p>Enter the 6-digit code sent to {formData.email}</p>
+            <p>Enter the 6-digit code sent to email :- {formData.email}</p>
           </div>
 
           <form onSubmit={handleVerify} className="auth-form">
