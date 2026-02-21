@@ -12,6 +12,7 @@ const Reports = () => {
         </div>
         <div className="card">
           <p>Reports and analytics dashboard coming soon...</p>
+          <p>Page under development</p>
         </div>
       </main>
     </div>
