@@ -104,7 +104,7 @@ const Navbar = () => {
                 }} 
                 className="nav-btn logout-btn"
               >
-                Logout
+                Logout...
               </button>
             </>
           )}
