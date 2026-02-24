@@ -20,7 +20,7 @@ const Dashboard = () => {
       <Sidebar />
       <main className="dashboard-main">
         <div className="dashboard-header">
-          <h1>Welcome back, {user?.shopName}!</h1>
+          <h1>Your inventory details, {user?.shopName}!</h1>
           <p>Here's what's happening with your inventory today</p>
           <p>List of items WIll be appeared here </p>
         </div>
