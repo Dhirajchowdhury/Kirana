@@ -37,7 +37,7 @@ const Landing = () => {
               <span className="gradient-text">Made Simple</span>
             </h1>
             <p className="hero-subtitle">
-              Scan, track, and manage your store inventory with the power of modern technology
+              Scan, track, and manage your store inventory with the help of modern technology
             </p>
             <div className="hero-cta">
               <Link to="/signup" className="btn-primary">
