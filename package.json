@@ -9,7 +9,15 @@
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
   },
-  "keywords": ["inventory", "management", "mern", "pwa"],
+  "keywords": [
+    "inventory",
+    "management",
+    "mern",
+    "pwa"
+  ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
 }

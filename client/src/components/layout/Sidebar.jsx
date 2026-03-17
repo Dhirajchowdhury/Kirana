@@ -18,7 +18,7 @@ const Sidebar = () => {
       <div className="sidebar-header">
         <Link to="/dashboard" className="sidebar-logo">
           <span className="logo-icon">📦</span>
-          <span className="logo-text">Kirana</span>
+          <span className="logo-text">DukaanSetu</span>
         </Link>
       </div>
 

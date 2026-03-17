@@ -90,7 +90,7 @@ const Signup = () => {
         <div className="auth-header">
           <Link to="/" className="logo">
             <span className="logo-icon">📦</span>
-            <span className="logo-text">StockSync</span>
+            <span className="logo-text">DukaanSetu</span>
           </Link>
           <h2>Create Account</h2>
           <p>Start managing your inventory today</p>

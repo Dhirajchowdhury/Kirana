@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           <span className="logo-icon">📦</span>
-          <span className="logo-text">Kirana</span>
+          <span className="logo-text">DukaanSetu</span>
         </Link>
         
         {/* Desktop Navigation */}

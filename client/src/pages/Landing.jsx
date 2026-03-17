@@ -361,7 +361,7 @@ const Landing = () => {
       <section className="final-cta-section">
         <div className="final-cta-container">
           <h2>Ready to Transform Your Inventory?</h2>
-          <p>Join hundreds of store owners who trust StockSync</p>
+          <p>Join hundreds of store owners who trust DukaanSetu</p>
           <div className="final-cta-buttons">
             <Link to="/signup" className="btn-cta-primary">
               Start Free Trial

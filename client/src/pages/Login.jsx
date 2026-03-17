@@ -40,7 +40,7 @@ const Login = () => {
         <div className="auth-header">
           <Link to="/" className="logo">
             <span className="logo-icon">📦</span>
-            <span className="logo-text">StockSync</span>
+            <span className="logo-text">DukaanSetu</span>
           </Link>
           <h2>Welcome Back</h2>
           <p>Login to manage your inventory</p>

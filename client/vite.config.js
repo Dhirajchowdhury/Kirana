@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
-        name: 'StockSync - Inventory Manager',
-        short_name: 'StockSync',
+        name: 'DukaanSetu - Inventory Manager',
+        short_name: 'DukaanSetu',
         description: 'Smart inventory management for general stores',
         theme_color: '#8AA624',
         background_color: '#F7F4EA',
